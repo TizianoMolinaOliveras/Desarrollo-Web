@@ -172,7 +172,9 @@ label{
 
     /* Implantes */
 
-
+.body-1{
+    background-image: url(../imagenes/medical-pattern-.avif);
+}
 
 .implantes{
     display: flex;
@@ -198,7 +200,9 @@ label{
 
 
 /* Protesis*/
-
+.body-2{
+    background-image: url(../imagenes/medical-pattern-.avif);
+}
 
 .protesis{
     display: flex;
