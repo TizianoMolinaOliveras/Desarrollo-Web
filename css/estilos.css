@@ -1,0 +1,635 @@
+*{
+    margin:0% ;
+    padding:0% ;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(../imagenes/fondoprotesis.avif);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-image: url(../imagenes/fondo\ header.jpg);
+    justify-content: space-between;
+}
+
+nav{
+    padding: 1rem;
+}
+section{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+
+h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+h2{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 1rem; 
+    background-color: rgb(121, 199, 170);
+}
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(121, 199, 170);
+    padding: 1rem;
+    display: inline-block;
+}
+h5{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+p{
+    font-family: cursive;
+    font-size: 2rem;
+    padding: 1rem;
+    display: flex; 
+    background-color:rgb(49, 187, 141) ;
+    margin: 1rem;
+}
+a{
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+button{
+    font-size: 3rem;
+    background-color: darkred;
+    margin-left: 81rem;
+}
+il{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    font-weight: bolder;
+    display: flex;
+}
+
+iframe{
+    display: inline;
+}
+label{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(121, 199, 170);
+}
+
+.navbar{
+    display: none;
+}
+.consulta{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+    /* Inicio*/
+
+
+.drainicio{
+    background:none;
+}
+.drainicio2{
+    background: none;
+}
+.consultorio{
+    display: flex;
+}
+
+.contenidoconsultorio{ 
+    padding-top: 7rem;
+}
+.imagenconsul{
+    display: flex;
+    padding: 3rem;
+    width:40rem;
+    height: 55rem;
+}
+
+.equipoodontologico{
+    display: flex;
+}
+.especialidades{
+    display: flex;
+    justify-content: start;
+}
+
+.imgespecialidades{
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.implantesinicio{
+    padding-top: 3rem;
+    padding-left: 35rem;
+}
+.imgimplantesinicio{
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+.protesisinicio{
+    padding-top: 3rem;
+    padding-left: 35rem;
+}
+.imgprotesisinicio{
+    width: 10rem;
+    height: 10rem;
+}
+
+.odontopedriatriainicio{
+    padding-top: 3rem;
+    padding-left: 35rem;
+}
+    .imgodontopedriatriainicio{
+    width: 10rem;
+    height: 10rem;
+}
+.botoninicioconsulta{
+    margin-left: 20rem;
+}
+
+
+    /* Implantes */
+
+
+
+.implantes{
+    display: flex;
+}
+.h1{
+    font-size: 4rem;
+}
+.imgimplantes{
+    width: 30rem;
+    height: 25rem;
+}
+.img1impl{
+    width: 30rem;
+    height: 25rem;
+}
+.img2impl{
+    width: 30rem;
+    height: 25rem;
+}
+.botonconsulta1{
+    margin-left: 75rem;
+}
+
+
+/* Protesis*/
+
+
+.protesis{
+    display: flex;
+}
+.pProtesis{
+    font-size: 2.7rem;
+}
+.imgprotesis{
+    width: 30rem;
+    height: 25rem;
+}
+.img1prot{
+    width: 30rem;
+    height: 25rem;
+}
+.img2prot{
+    width: 30rem;
+    height: 25rem;
+}
+
+
+    /* Odontopedriatria */
+
+
+.odontopedriatria{
+    display: flex;
+} 
+
+.imgodontopedriatria{
+    width: 30rem;
+    height: 25rem;
+}
+.img1odon{
+    width: 30rem;
+    height: 23rem;
+}
+.img2odon{
+    width: 30rem;
+    height: 25rem;
+}
+
+
+.fondoodontopedriatria{
+    background-image: url(../imagenes/fondo\ 3.jpg);
+}
+
+
+
+/* Contacto */
+
+.contacto{
+    display: flex;
+}
+.generallabel{
+    padding-right:5rem;
+}
+.form-control{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boton-enviar{
+    font-size: 2rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-left: 25rem;
+    margin-top: rem;
+    background-color: rgb(3, 65, 42);
+    font-weight: 800;
+    border: 2rem;
+}
+.imfoodontologica{
+    margin-left: 1rem;
+}
+
+
+
+    /* Grids*/
+    
+        /* Implantes*/
+
+            .ContenedorTotal{
+                display: grid;
+                grid-template-columns:1fr; 
+                grid-template-rows: 0.1fr 1fr 1fr ;
+                grid-template-areas: 
+                " header"
+                " main"
+                "footer "
+                ;
+            }
+            .header{
+                grid-area: header;
+            }
+            .main{
+                grid-area: main;
+            }
+            .botonconsulta1{
+                grid-area: footer;
+            }
+
+
+            /* Protesis*/
+
+            .ContenedorTotal3{
+                display: grid;
+                grid-template-columns:1fr; 
+                grid-template-rows: 0.1fr 1fr 1fr ;
+                grid-template-areas: 
+                " header"
+                " main"
+                "footer "
+                ;
+            }
+            .header3{
+                grid-area: header;
+            }
+            .main3{
+                grid-area: main;
+            }
+            .botonconsulta3{
+                grid-area: footer;
+            }
+
+            /* Odontopedriatria */
+
+            .ContenedorTotal2{
+                display: grid;
+                grid-template-columns:1fr; 
+                grid-template-rows: 0.1fr 1fr 1fr ;
+                grid-template-areas: 
+                " header"
+                " main"
+                "footer "
+                ;
+            }
+            .header2{
+                grid-area: header;
+            }
+            .main{
+                grid-area: main;
+            }
+            .botonconsulta2{
+                grid-area: footer;
+            }
+    /* Media queris*/
+
+@media screen and (max-width: 768px){
+    header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    display: none;
+}
+
+.nav-equipoodontologia{
+    display: none;
+}
+
+.nav-especialidades{
+    display: none;
+}
+
+    /* Inicio*/
+
+    .contenidoconsultorio{
+    padding-top: 1rem;
+}
+    .imagenconsul{
+    width: 100%;
+    padding-right: 4rem;
+}
+    .equipoodontologico {
+    display: block;
+}
+    .equipoodontologico p{
+    font-size: 2rem;
+}
+
+    .implantesinicio h2{
+    font-size: 20px;
+    margin-right: 11rem;
+}
+
+    .imgimplantesinicio{
+    width: 11rem;
+    height: 11rem;
+}
+    .protesisinicio h2{
+    font-size: 20px;
+    margin-right: 11rem;
+}
+    .imgprotesisinicio{
+    width: 11rem;
+    height: 11rem;
+}
+    .odontopedriatriainicio h2{
+    font-size: 20px;
+    margin-right: 5rem;
+}
+    .imgodontopedriatriainicio{
+    width: 11rem;
+    height: 11rem;
+}
+
+
+    /* Implantes */
+
+
+    .implantes p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.botonconsulta1{
+    margin-left: 50rem;
+}
+
+
+    /* Protesis*/
+
+    .pProtesis{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.img1prot{
+    width: 25rem;
+    height: 25rem;
+}
+
+.img2prot{
+    width: 25rem;
+    height: 25rem;
+}
+.botonconsulta3{
+    margin-left: 50rem;
+}
+
+
+    
+    /* Odontopedriatria */
+
+    .odontopedriatria p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+    .img1odon{
+    height: 33rem;
+    padding: 1rem;
+}
+    .img2odon{
+    height: 33rem;
+    padding: 1rem;
+}
+.botonconsulta2{
+    margin-left: 50rem;
+}
+
+
+    /* Contacto */
+
+    .contacto{
+    display: block;
+}
+    .imfoodontologica{
+    margin-left: 2rem;
+}
+.contacto-ubicacion{
+    width: 100%;
+}
+.boton-enviar{
+    margin-left: 85%;
+}
+
+}
+
+
+@media screen and (max-width: 500px){ 
+    header{
+        background-image: url(/imagenes/fondoprotesis.avif);
+    }
+    .h2-1{
+        display: none;
+    }
+    .nav1{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        background-image: url(../imagenes/fondo\ header.jpg);
+        width: 100%;
+    }
+    .navbar-brand{
+        background:none;
+        font-size: 2rem;
+    }
+    .navbar-toggler{
+        background-color:rgb(55, 163, 163) ;
+        margin-left:8rem ;
+    }
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    /* Pagina inicio*/
+
+
+    .consultorio{
+        display: block;
+    }
+
+    .imagenconsul{
+        width:100% ;
+        height:100% ;
+    
+    }
+    .especialidades{
+        display: block;
+    }
+    il{
+        padding: 0.5rem;
+    }
+    .implantesinicio {
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+    .imgimplantesinicio{
+        width: 9rem;
+        height: 9rem;
+    }
+    .protesisinicio{
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+    .imgprotesisinicio{
+        width:  9rem;
+        height: 9rem;
+    }
+    .odontopedriatriainicio{
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+    .imgodontopedriatriainicio{
+        width: 9rem;
+        height: 9rem;
+    }
+    .botoninicioconsulta{
+        margin-left: 10rem;
+    }
+    .volver-arriba{
+        display: none;
+    }
+
+    /* Pagina Implantes*/
+
+    .header-flex{
+        display: flex;
+    }
+
+    .implantes {
+        display: block;
+    }
+    .imgimplantes{
+        padding:1rem;
+    }
+    .img1impl{
+        width: 25rem;
+        height: 25rem;
+    }
+    .img2impl{
+        padding-top: 1rem;
+        width: 25rem;
+        height: 25rem;
+    }
+    .botonconsulta1{
+        margin-left: 15rem;
+        margin-top: 25rem;
+}
+    footer{
+        display: block;
+    }
+    /* Pagina Protesis*/
+
+    .protesis{
+        display: block;
+    }
+    .imgprotesis{
+        width: 25rem;
+        height: 25rem;
+        padding: 1rem;
+    }
+    .imgprotesis2{
+        padding-top: 1rem;
+    }
+    .botonconsulta3{
+        margin-left: 12rem;
+        margin-top: 29rem;
+    }
+    
+    /* Pagina Odontopedriatria*/
+
+    .odontopedriatria{
+        display: block;
+    }
+    .img1odon{
+        width: 25rem;
+        height: 25rem;
+        padding: 1rem;
+    }
+    .img2odon{
+        padding-top: 1rem;
+        width: 25rem;
+        height: 25rem;
+    }
+    .botonconsulta2{
+        margin-left: 12rem;
+        margin-top: 23rem;
+    }
+    /* Pagina Contacto*/
+
+    .contacto{
+        display: block;
+    }
+    .botonenviar{
+        margin-left: 13rem;
+    }
+    .contacto-ubicacion{
+        width: 100%;
+        height: 22rem;
+        padding-left: 0rem;
+    }
+
+}
