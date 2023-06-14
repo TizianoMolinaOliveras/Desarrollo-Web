@@ -1,0 +1,67 @@
+    /* Grids*/
+    
+        /* Implantes*/
+
+        .ContenedorTotal{
+            display: grid;
+            grid-template-columns:1fr; 
+            grid-template-rows: 0.1fr 1fr 1fr ;
+            grid-template-areas: 
+            " header"
+            " main"
+            "footer "
+            ;
+        }
+        .header{
+            grid-area: header;
+        }
+        .main{
+            grid-area: main;
+        }
+        .botonconsulta1{
+            grid-area: footer;
+        }
+
+        /* Protesis*/
+
+        .ContenedorTotal3{
+            display: grid;
+            grid-template-columns:1fr; 
+            grid-template-rows: 0.1fr 1fr 1fr ;
+            grid-template-areas: 
+            " header"
+            " main"
+            "footer "
+            ;
+        }
+        .header3{
+            grid-area: header;
+        }
+        .main3{
+            grid-area: main;
+        }
+        .botonconsulta3{
+            grid-area: footer;
+        }
+
+        /* Odontopedriatria */
+
+        .ContenedorTotal2{
+            display: grid;
+            grid-template-columns:1fr; 
+            grid-template-rows: 0.1fr 1fr 1fr ;
+            grid-template-areas: 
+            " header"
+            " main"
+            "footer "
+            ;
+        }
+        .header2{
+            grid-area: header;
+        }
+        .main{
+            grid-area: main;
+        }
+        .botonconsulta2{
+            grid-area: footer;
+        }
