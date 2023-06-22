@@ -329,10 +329,6 @@ label {
   border: 2rem;
 }
 
-.imfoodontologica {
-  margin-left: 1rem;
-}
-
 /* Media queris*/
 @media screen and (max-width: 768px) {
   header {
@@ -431,9 +427,6 @@ label {
   .contacto {
     display: block;
   }
-  .contacto .imfoodontologica {
-    margin-left: 2rem;
-  }
   .contacto .contacto-ubicacion {
     width: 100%;
   }
@@ -531,7 +524,6 @@ label {
   }
   .botonconsulta1 {
     margin-left: 15rem;
-    margin-top: 25rem;
   }
   /* Pagina Protesis*/
   .protesis {
@@ -547,7 +539,6 @@ label {
   }
   .botonconsulta3 {
     margin-left: 12rem;
-    margin-top: 29rem;
   }
   /* Pagina Odontopedriatria*/
   .odontopedriatria {
@@ -565,7 +556,6 @@ label {
   }
   .botonconsulta2 {
     margin-left: 12rem;
-    margin-top: 23rem;
   }
   /* Pagina Contacto*/
   .contacto {
