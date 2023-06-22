@@ -1,3 +1,10 @@
+                  /* Mixins */
+
+@mixin tamanos($width, $heigth){
+    width: $width;
+    height: $height;
+}
+
 @import "variables";
 
 @import "grillas";
@@ -43,10 +50,10 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     padding: 1rem; 
-    background-color:$colorPricipal ;
+    background-color:$colorPricipal;
 }
 h3{
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     font-weight: 500;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color:$colorPricipal;
@@ -54,12 +61,12 @@ h3{
     display: inline-block;
 }
 h5{
-    font-size: 2rem;
+    font-size:$fuenteNormal;
     font-weight: bolder;
 }
 p{
     font-family: sans-serif;
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     padding: 1rem;
     display: flex; 
     background-color:$colorSecundario;
@@ -68,7 +75,7 @@ p{
 a{
     color: rgb(128, 4, 4);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     text-decoration: none;
     padding: 2rem;
     font-weight: bold;
@@ -80,7 +87,7 @@ button{
     margin-left: 81rem;
 }
 il{
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     font-weight: bolder;
@@ -91,7 +98,7 @@ iframe{
     display: inline;
 }
 label{
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     font-weight: 500;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(121, 199, 170);
@@ -119,10 +126,9 @@ label{
         padding-top: 7rem;
         }
         .imagenconsul{
+        @include tamanos(40rem, 55rem);
         display: flex;
         padding: 3rem;
-        width:40rem;
-        height: 55rem;
         }
     }
 
@@ -142,26 +148,22 @@ label{
             padding-top: 3rem;
             padding-left: 35rem;
                 .imgimplantesinicio{
-                width: 10rem;
-                height: 10rem;
+                @include tamanos(10rem, 10rem);
                 }
             }
             .protesisinicio{
-            padding-top: 3rem;
-            padding-left: 35rem;
+                padding-top: 3rem;
+                padding-left: 35rem;
                 .imgprotesisinicio{
-                width: 10rem;
-                height: 10rem;
+                @include tamanos(10rem, 10rem);
                 }
             }
-            .odontopedriatriainicio
-            {
-            padding-top: 3rem;
-            padding-left: 35rem;
-            }
-            .imgodontopedriatriainicio{
-            width: 10rem;
-            height: 10rem;
+            .odontopedriatriainicio{
+                padding-top: 3rem;
+                padding-left: 35rem;
+                .imgodontopedriatriainicio{
+                @include tamanos(10rem, 10rem);
+                }
             }
         }
     }
@@ -181,15 +183,12 @@ label{
 .implantes{
     display: flex;
     .imgimplantes{
-    width: 30rem;
-    height: 25rem;
+    @include tamanos(30rem, 25rem);
         .img1impl{
-        width: 30rem;
-        height: 25rem;
+            @include tamanos(30rem, 25rem);
         }
         .img2impl{
-        width: 30rem;
-        height: 25rem;
+            @include tamanos(30rem, 25rem);
         }
     }
 }
@@ -207,18 +206,15 @@ label{
 .protesis{
     display: flex;
     .pProtesis{
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     }
     .imgprotesis{
-    width: 30rem;
-    height: 25rem;
+        @include tamanos(30rem, 25rem);
         .img1prot{
-        width: 30rem;
-        height: 25rem;
+            @include tamanos(30rem, 25rem);
         }
         .img2prot{
-        width: 30rem;
-        height: 25rem;
+            @include tamanos(30rem, 25rem);
         }
     }
 }
@@ -229,15 +225,12 @@ label{
     .odontopedriatria{
         display: flex;
         .imgodontopedriatria{
-        width: 30rem;
-        height: 25rem;
+            @include tamanos(30rem, 25rem);
             .img1odon{
-            width: 30rem;
-            height: 23rem;
+                @include tamanos(30rem, 25rem);
             }
             .img2odon{
-            width: 30rem;
-            height: 25rem;
+                @include tamanos(30rem, 25rem);
             }
         }
     } 
@@ -257,7 +250,7 @@ label{
         font-family: 'Times New Roman', Times, serif;
     }
         .boton-enviar{
-        font-size: 2rem;
+        font-size: $fuenteNormal;
         padding: 0.5rem 2rem 0.5rem 2rem;
         margin-left: 17rem;
         background-color: rgb(3, 65, 42);
@@ -308,39 +301,36 @@ label{
     .equipoodontologico{
         display: block;
         p{
-            font-size: 2rem;
+            font-size: $fuenteNormal;
         }
     }
     .implantesinicio{ 
         h2{
-        font-size: 20px;
+        font-size: $fuenteNormal;
         margin-right: 11rem;
         }
         .imgimplantesinicio{
-        width: 11rem;
-        height: 11rem;
+        @include tamanos(11rem, 11rem);
         }
     }
 
     .protesisinicio {
         h2{
-        font-size: 20px;
+        font-size:$fuenteNormal;
         margin-right: 11rem;
         }
         .imgprotesisinicio{
-        width: 11rem;
-        height: 11rem;
+            @include tamanos(11rem, 11rem);
         }
     }
 
     .odontopedriatriainicio{
         h2{
-        font-size: 20px;
+        font-size: $fuenteNormal;
         margin-right: 5rem;
         }
         .imgodontopedriatriainicio{
-        width: 11rem;
-        height: 11rem;
+            @include tamanos(11rem, 11rem);
         }
     }
 
@@ -362,17 +352,15 @@ label{
     /* Protesis*/
 
     .pProtesis{
-    font-size: 2rem;
+    font-size: $fuenteNormal;
     font-weight: 600;
 }
 .img1prot{
-    width: 25rem;
-    height: 25rem;
+    @include tamanos(25rem, 25rem);
 }
 
 .img2prot{
-    width: 25rem;
-    height: 25rem;
+    @include tamanos(25rem, 25rem);
 }
 .botonconsulta3{
     margin-left: 50rem;
@@ -421,6 +409,7 @@ label{
 
 }
 
+
     @media screen and (max-width: 500px){ 
         header{
             background-image: url(/imagenes/fondoprotesis.avif);
@@ -443,7 +432,7 @@ label{
             width: 100%;
             .navbar-brand{
             background:none;
-            font-size: 2rem;
+            font-size: $fuenteNormal;
             }
             .navbar-toggler{
             background-color:rgb(55, 163, 163) ;
@@ -462,41 +451,33 @@ label{
         display: block;
 
         .imagenconsul{
-        width:100% ;
-        height:100% ;
+            @include tamanos(100%, 100%);
         }
     }
 
 
     .especialidades{
         display: inline-block;
-}
         .implantesinicio{
-        padding-top: 3rem;
         margin-left: -35rem;
-    }
-        .imgimplantesinicio{
-        width: 9rem;
-        height: 9rem;
+            .imgimplantesinicio{
+                @include tamanos(9rem, 9rem);
+            }
         }
-
         .protesisinicio{
         margin-left: -35rem;
+            .imgprotesisinicio{
+                @include tamanos(9rem, 9rem);
+            } 
         }
-        .imgprotesisinicio{
-        width:  9rem;
-        height: 9rem;
-        }   
         .odontopedriatriainicio{
-        padding-top: 5rem;
         margin-left: -35rem;
         margin-bottom: 3rem;
+            .imgodontopedriatriainicio{
+                @include tamanos(9rem, 9rem);
+            }
         }
-        .imgodontopedriatriainicio{
-        width: 9rem;
-        height: 9rem;
-        }
-    
+    }
 
     .botoninicioconsulta{
         margin-left: 10rem;
@@ -515,13 +496,11 @@ label{
                 .imgimplantes{
                 padding:1rem;
                     .img1impl{
-                    width: 25rem;
-                    height: 25rem;
+                        @include tamanos(25rem, 25rem);
                     }
                     .img2impl{
                     padding-top: 1rem;
-                    width: 25rem;
-                    height: 25rem;
+                    @include tamanos(25rem, 25rem);
                     }
                 }
         }
@@ -536,8 +515,7 @@ label{
 .protesis{
     display: block;
         .imgprotesis{
-        width: 25rem;
-        height: 25rem;
+            @include tamanos(25rem, 25rem);
         padding: 1rem;
             .imgprotesis2{
             padding-top: 1rem;
@@ -559,18 +537,15 @@ label{
         display: block;
 
             .img1odon{
-            width: 25rem;
-            height: 25rem;
+                @include tamanos(25rem, 25rem);
             padding: 1rem;
             }
 
             .img2odon{
             padding-top: 1rem;
-            width: 25rem;
-            height: 25rem;
+            @include tamanos(25rem, 25rem);
             }
-    }
-
+        }
     .botonconsulta2{
         margin-left: 12rem;
         margin-top: 23rem;
@@ -587,11 +562,11 @@ label{
             padding-left: 10rem;
             }
 
+            
             .contacto-ubicacion{
-            width: 100%;
-            height: 22rem;
-            padding-left: 0rem;
+            @include tamanos(100%, 22rem);
             }
     }
 
 }
+
