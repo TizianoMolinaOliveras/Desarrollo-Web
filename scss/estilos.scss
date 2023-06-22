@@ -373,11 +373,11 @@ label{
         font-weight: 600;
         }
         .img1odon{
-        height: 33rem;
+        height: 28rem;
         padding: 1rem;
         }
         .img2odon{
-        height: 33rem;
+        height: 28rem;
         padding: 1rem;
         }
     }
@@ -534,7 +534,7 @@ label{
 
             .img2odon{
             padding-top: 1rem;
-            @include tamanos(25rem, 25rem);
+            @include tamanos(25rem, 25px);
             }
         }
     .botonconsulta2{
