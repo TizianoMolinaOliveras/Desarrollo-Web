@@ -1,4 +1,5 @@
-/* Mixins */ /* Grids*/
+/* Mixins */
+/* Grids*/
 /* Implantes*/
 .ContenedorTotal {
   display: grid;
@@ -212,7 +213,7 @@ label {
 }
 .especialidades .imgespecialidades .implantesinicio .imgimplantesinicio {
   width: 10rem;
-  height: height;
+  height: 10rem;
 }
 .especialidades .imgespecialidades .protesisinicio {
   padding-top: 3rem;
@@ -227,7 +228,7 @@ label {
   padding-left: 35rem;
 }
 .especialidades .imgespecialidades .odontopedriatriainicio .imgodontopedriatriainicio {
-  width: 10rem;
+  width: 11rem;
   height: height;
 }
 
@@ -413,11 +414,11 @@ label {
     font-weight: 600;
   }
   .odontopedriatria .img1odon {
-    height: 33rem;
+    height: 28rem;
     padding: 1rem;
   }
   .odontopedriatria .img2odon {
-    height: 33rem;
+    height: 28rem;
     padding: 1rem;
   }
   .botonconsulta2 {

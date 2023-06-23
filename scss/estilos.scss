@@ -118,7 +118,7 @@ label{
         background:none;
     }
     .drainicio2{
-        background: none;
+        background:none;
     }
     .consultorio{
         display: flex;
@@ -148,21 +148,22 @@ label{
             padding-top: 3rem;
             padding-left: 35rem;
                 .imgimplantesinicio{
-                @include tamanos(10rem, 10rem);
+                width: 10rem;
+                height: 10rem;
                 }
             }
             .protesisinicio{
                 padding-top: 3rem;
                 padding-left: 35rem;
                 .imgprotesisinicio{
-                @include tamanos(10rem, 10rem);
+                @include tamanos(10rem,10rem );
                 }
             }
             .odontopedriatriainicio{
                 padding-top: 3rem;
                 padding-left: 35rem;
                 .imgodontopedriatriainicio{
-                @include tamanos(10rem, 10rem);
+                @include tamanos(11rem, 11rem);
                 }
             }
         }
@@ -489,11 +490,11 @@ label{
                 .imgimplantes{
                 padding:1rem;
                     .img1impl{
-                        @include tamanos(25rem, 25rem);
+                    @include tamanos(25rem, 25rem)
                     }
                     .img2impl{
                     padding-top: 1rem;
-                    @include tamanos(25rem, 25rem);
+                    @include tamanos(25rem, 25rem)
                     }
                 }
         }
