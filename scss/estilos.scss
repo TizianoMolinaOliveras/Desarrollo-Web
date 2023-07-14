@@ -151,6 +151,9 @@ label{
                 width: 10rem;
                 height: 10rem;
                 }
+                .imgimplantesinicio:hover{
+                    transform: scale(1.2);
+                }
             }
             .protesisinicio{
                 padding-top: 3rem;
@@ -158,12 +161,18 @@ label{
                 .imgprotesisinicio{
                 @include tamanos(10rem,10rem );
                 }
+                .imgprotesisinicio:hover{
+                    transform: scale(1.2);
+                }
             }
             .odontopedriatriainicio{
                 padding-top: 3rem;
                 margin-left: 35rem;
                 .imgodontopedriatriainicio{
                 @include tamanos(11rem, 11rem);
+                }
+                .imgodontopedriatriainicio:hover{
+                    transform: scale(1.2);
                 }
             }
         }

@@ -215,6 +215,9 @@ label {
   width: 10rem;
   height: 10rem;
 }
+.especialidades .imgespecialidades .implantesinicio .imgimplantesinicio:hover {
+  transform: scale(1.2);
+}
 .especialidades .imgespecialidades .protesisinicio {
   padding-top: 3rem;
   margin-left: 35rem;
@@ -223,6 +226,9 @@ label {
   width: 10rem;
   height: height;
 }
+.especialidades .imgespecialidades .protesisinicio .imgprotesisinicio:hover {
+  transform: scale(1.2);
+}
 .especialidades .imgespecialidades .odontopedriatriainicio {
   padding-top: 3rem;
   margin-left: 35rem;
@@ -230,6 +236,9 @@ label {
 .especialidades .imgespecialidades .odontopedriatriainicio .imgodontopedriatriainicio {
   width: 11rem;
   height: height;
+}
+.especialidades .imgespecialidades .odontopedriatriainicio .imgodontopedriatriainicio:hover {
+  transform: scale(1.2);
 }
 
 .botoninicioconsulta {
